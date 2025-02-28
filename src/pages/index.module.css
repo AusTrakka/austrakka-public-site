@@ -1,13 +1,9 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  min-height: 300px; /* Prevent unnecessary expansion */
 }
 
 @media screen and (max-width: 996px) {
@@ -16,8 +12,38 @@
   }
 }
 
-.buttons {
+/* Container for background and logo */
+.heroContainer {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* Ensures it doesn’t stretch too much */
+  margin: 0 auto;
+  height: 200px; /* Keeps it constrained */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+/* Background placeholder */
+.heroBackground {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+/* Logo container */
+.logoContainer {
+  position: relative;
+  z-index: 1; /* Ensures it’s above background */
+  padding: 10px;
+}
+
+/* Logo styling */
+.heroLogo {
+  max-width: 120px; /* Adjust as needed */
+  height: auto;
+  object-fit: contain;
 }
