@@ -13,9 +13,14 @@
     --ifm-color-primary-light: #043b4e;
     --ifm-color-primary-lighter: #053e52;
     --ifm-color-primary-lightest: #05465c;
+    --ifm-color-secondary: #E6E7E8;
+    --ifm-color-success: #68934B;
+    --ifm-color-info: #014F86;
+    --ifm-color-warning: #FCAF17;
+    --ifm-color-danger: #D7534C;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-    --secondary-color: #90CA6D;
+    --austrakka-secondary: #90CA6D;
     --austrakka-primary-grey: #E6E7E8;
     --austrakka-black: #353333;
     --austrakka-secondary-grey: #B3B3B3;

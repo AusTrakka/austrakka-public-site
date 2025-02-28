@@ -55,8 +55,8 @@ const config: Config = {
       },
       items: [
         {
-          label: 'Sign In',
-          href: 'https://austrakka.net',
+          label: 'AusTrakka Login',
+          to: 'https://austrakka.net',
           position: 'right',
           className: 'sign-in-button',
         }
