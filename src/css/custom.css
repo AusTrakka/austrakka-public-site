@@ -29,6 +29,20 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url('../../static/fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Roboto";
+  src: url('../../static/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+html, body, span {
+  font-family: Roboto, 'Open Sans';
+}
+
 
 .sign-in-button {
   display: inline-block;
@@ -44,29 +58,4 @@
   background-color: #0056b3;
 }
 
-/* Increase navbar height */
-.navbar {
-  height: 80px; /* Adjust as needed */
-  display: flex;
-  align-items: center;
-}
 
-/* Ensure the logo is centered vertically */
-.navbar__logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-/* Adjust the logo size */
-.navbar__logo img {
-  height: 60px; /* Adjust as needed */
-  width: auto;
-}
-
-.navbar__inner {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}

@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'AusTrakka',
   tagline: 'Real-time pathogen genomics surveillance',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/austrakka_favicon.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -32,13 +32,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: ['./src/css/custom.css','./src/css/navbar.css'],
         },
       } satisfies Preset.Options,
     ],
@@ -55,8 +51,7 @@ const config: Config = {
       logo: {
         alt: 'AusTrakka Logo',
         src: 'img/Austrakka_Logo_cmyk.png',
-        width: 100, // Adjust as needed
-        height: 20, // Adjust as needed
+        href: '/',
       },
       items: [
         {

@@ -6,7 +6,7 @@
 export default {
   "title": "AusTrakka",
   "tagline": "Real-time pathogen genomics surveillance",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/austrakka_favicon.ico",
   "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -24,11 +24,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "./sidebars.ts"
         },
         "theme": {
-          "customCss": "./src/css/custom.css"
+          "customCss": [
+            "./src/css/custom.css",
+            "./src/css/navbar.css"
+          ]
         }
       }
     ]
@@ -44,8 +46,7 @@ export default {
       "logo": {
         "alt": "AusTrakka Logo",
         "src": "img/Austrakka_Logo_cmyk.png",
-        "width": 100,
-        "height": 20
+        "href": "/"
       },
       "items": [
         {
