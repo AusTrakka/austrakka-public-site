@@ -15,6 +15,18 @@
     --ifm-color-primary-lightest: #05465c;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+    --secondary-color: #90CA6D;
+    --austrakka-primary-grey: #E6E7E8;
+    --austrakka-black: #353333;
+    --austrakka-secondary-grey: #B3B3B3;
+    --austrakka-primary-variation: #3E7784;
+    --austrakka-secondary-variation: #68934B;
+    --austrakka-secondary-variation-darker: #375C2B;
+    --austrakka-info-blue: #014F86;
+    --austrakka-lavender: #B9A8D2;
+    --austrakka-error-red: #D7534C;
+    --austrakka-interactive-red: #A81E2C;
+    --austrakka-warning-yellow: #FCAF17;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -44,18 +56,6 @@ html, body, span {
 }
 
 
-.sign-in-button {
-  display: inline-block;
-  padding: 8px 16px;
-  background-color: #007bff;
-  color: white;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-}
 
-.sign-in-button:hover {
-  background-color: #0056b3;
-}
 
 

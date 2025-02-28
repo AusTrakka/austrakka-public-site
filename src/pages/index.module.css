@@ -1,15 +1,9 @@
 .heroBanner {
-  padding: 4rem 0;
+  padding: 1rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  min-height: 300px; /* Prevent unnecessary expansion */
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+  max-height: 300px; /* Prevent unnecessary expansion */
 }
 
 /* Container for background and logo */
@@ -38,12 +32,11 @@
 .logoContainer {
   position: relative;
   z-index: 1; /* Ensures it’s above background */
-  padding: 10px;
 }
 
 /* Logo styling */
 .heroLogo {
-  max-width: 120px; /* Adjust as needed */
+  max-width: 320px; /* Adjust as needed */
   height: auto;
   object-fit: contain;
 }
