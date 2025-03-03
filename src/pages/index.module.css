@@ -10,11 +10,11 @@
 .heroContainer {
   position: relative;
   width: 100%;
-  max-width: 1200px; /* Ensures it doesn’t stretch too much */
+  max-width: 1500px; /* Ensures it doesn’t stretch too much */
   margin: 0 auto;
   height: 200px; /* Keeps it constrained */
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
   padding: 10px;
 }
@@ -36,6 +36,7 @@
 
 /* Logo styling */
 .heroLogo {
+  margin-top: 10px;
   max-width: 320px; /* Adjust as needed */
   height: auto;
   object-fit: contain;
