@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -25,6 +25,13 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  
+  stylesheets: [
+    {
+      href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css',
+      type: 'text/css',
+    },
+  ],
 
   presets: [
     [
@@ -34,13 +41,24 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
         },
         theme: {
-          customCss: ['./src/css/custom.css','./src/css/navbar.css'],
+          customCss: [
+            './src/css/custom.css',
+            './src/css/navbar.css',
+            './src/css/footer.css',
+            './src/css/content.css',
+          ],
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
+    metadata: [
+      {
+        name: 'title',
+        content: 'AusTrakka | Real-time pathogen genomics surveillance',
+      },
+    ],
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
@@ -56,15 +74,38 @@ const config: Config = {
       items: [
         {
           label: 'About',
-          position: 'left',
-          labelId: 'about'
+          position: 'right',
+          labelId: 'about',
+          to: '/about',
         },
         {
-          label: 'AusTrakka Login',
-          to: 'https://austrakka.net',
+          label: 'FAQ',
           position: 'right',
-          className: 'sign-in-button',
-        }
+          labelId: 'faq',
+          to: '/faq',
+        },
+        {
+          label: 'Contact',
+          position: 'right',
+          labelId: 'contact',
+          to: '/contact',
+        },
+        {
+          label: 'Governance',
+          position: 'right',
+          labelId: 'governance',
+          to: '/governance',
+        },
+        {
+          html: `
+            <span class="sign-in-button">
+              LOGIN
+              <i class="fas fa-sign-in-alt" style="margin-left: 8px;"></i> <!-- Icon on the right -->
+            </span>
+          `,
+          position: 'right',
+          to: 'https://austrakka.net',
+        },
       ],
     },
     footer: {
@@ -75,19 +116,19 @@ const config: Config = {
           items: [
             {
               label: 'The Peter Doherty Institute',
-              href: 'https://www.doherty.edu.au/',
+              to: 'https://www.doherty.edu.au/',
             },
             {
               label: 'The University of Melbourne',
-              href: 'https://www.unimelb.edu.au/',
+              to: 'https://www.unimelb.edu.au/',
             },
             {
               label: 'The Royal Melbourne Hospital',
-              href: 'https://www.thermh.org.au/',
+              to: 'https://www.thermh.org.au/',
             },
             {
               label: 'CDGN',
-              href: 'https://www.cdgn.org.au/',
+              to: 'https://www.cdgn.org.au/',
             },
           ],
         },
@@ -106,12 +147,11 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/AusTrakka',
+              to: 'https://github.com/AusTrakka',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} AusTrakka. Cey would know the copyright I think`,
     },
     prism: {
       theme: prismThemes.github,

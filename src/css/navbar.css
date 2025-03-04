@@ -6,6 +6,11 @@
     border-bottom: 3px solid var(--austrakka-secondary);
 }
 
+.navbar .navbar__inner {
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
 /* Ensure the logo is centered vertically */
 .navbar__logo {
     display: flex;
@@ -20,15 +25,19 @@
     width: auto;
 }
 
+.navbar__item:not(.sign-in-button) {
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}   
 /* Sleek Sign-In Button */
 .sign-in-button {
     display: inline-block;
     padding: 6px 14px; /* Reduced padding for smaller height */
-    background-color: var(--ifm-color-primary);
+    background-color: var(--austrakka-secondary-variation);
     color: white;
-    border-radius: 2px; /* Slightly sharper corners */
+    border-radius: 4px; /* Slightly sharper corners */
     text-decoration: none;
-    font-weight: 300;
     font-size: 14px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15); /* Lower elevation */
     transition: all 0.2s ease-in-out;

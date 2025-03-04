@@ -32,6 +32,8 @@
     --austrakka-error-red: #D7534C;
     --austrakka-interactive-red: #A81E2C;
     --austrakka-warning-yellow: #FCAF17;
+    --ifm-navbar-link-color: var(--austrakka-black);
+    --ifm-navbar-link-hover-color: var(--austrakka-secondary-variation);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -56,9 +58,7 @@
   font-weight: bold;
 }
 
-html, body, span {
-  font-family: Roboto, 'Open Sans';
-}
+
 
 
 
