@@ -32,6 +32,7 @@
     --austrakka-error-red: #D7534C;
     --austrakka-interactive-red: #A81E2C;
     --austrakka-warning-yellow: #FCAF17;
+    --ifm-font-family-base: "Roboto", sans-serif;
     --ifm-navbar-link-color: var(--austrakka-black);
     --ifm-navbar-link-hover-color: var(--austrakka-secondary-variation);
 }
@@ -58,9 +59,7 @@
   font-weight: bold;
 }
 
-
-
-
-
-
-
+.p-carousel {
+    padding-top: 10px;
+    margin: 70px auto;
+}

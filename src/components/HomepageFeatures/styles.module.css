@@ -1,0 +1,41 @@
+.partnerLogo {
+    max-width: 333.33px;
+    max-height: 100px;
+    object-fit: contain; /* Maintains aspect ratio within constraints */
+    margin: 0 auto; /* Centers the image horizontally */
+    display: block; /* Removes inline element behavior */
+}
+
+.carouselImage {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure full width of carousel slot */
+    padding: 10px; /* Add some spacing */
+}
+
+.carouselImage a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Create a fixed-height container for the image */
+.imageContainer {
+    height: 120px; /* Adjust based on your needs */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.carouselCaption {
+    text-align: center;
+    width: 100%; /* Ensure caption takes full width */
+    padding-top: 15px;
+}
+
+.carouselCaption h4 {
+    margin: 0; /* Remove default margins */
+    color: var(--austrakka-secondary-variation-darker);
+}

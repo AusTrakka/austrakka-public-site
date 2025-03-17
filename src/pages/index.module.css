@@ -1,43 +1,41 @@
 .heroBanner {
-  padding: 1rem 0;
+  padding: 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  max-height: 300px; /* Prevent unnecessary expansion */
+  max-height: 300px;
+  background-image: url('../../static/img/austrakka-banner-no-border.svg'), 
+    radial-gradient(ellipse at bottom, var(--ifm-color-primary) 75%, color-mix(in srgb, var(--austrakka-secondary-variation), transparent 30%) 100%);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  box-sizing: content-box; /* Explicitly set this to ensure padding doesn't affect sizing */
 }
 
-/* Container for background and logo */
+/* Container for logo */
 .heroContainer {
   position: relative;
   width: 100%;
-  max-width: 1360px; /* Ensures it doesn’t stretch too much */
+  max-width: 1360px;
   margin: 0 auto;
-  height: 200px; /* Keeps it constrained */
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 50px;
 }
 
-/* Background placeholder */
-.heroBackground {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  z-index: 0;
-}
-
 /* Logo container */
 .logoContainer {
   position: relative;
-  z-index: 1; /* Ensures it’s above background */
+  z-index: 1; /* Ensures it's above background */
 }
 
 /* Logo styling */
 .heroLogo {
   margin-top: 10px;
-  max-width: 320px; /* Adjust as needed */
+  max-width: 320px;
   height: auto;
   object-fit: contain;
 }
+

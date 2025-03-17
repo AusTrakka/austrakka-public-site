@@ -73,28 +73,10 @@ const config: Config = {
       },
       items: [
         {
-          label: 'About',
+          label: 'Team',
           position: 'right',
           labelId: 'about',
           to: '/about',
-        },
-        {
-          label: 'FAQ',
-          position: 'right',
-          labelId: 'faq',
-          to: '/faq',
-        },
-        {
-          label: 'Contact',
-          position: 'right',
-          labelId: 'contact',
-          to: '/contact',
-        },
-        {
-          label: 'Governance',
-          position: 'right',
-          labelId: 'governance',
-          to: '/governance',
         },
         {
           html: `
@@ -112,23 +94,56 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Affiliated',
+          title: 'Networks',
           items: [
             {
-              label: 'The Peter Doherty Institute',
-              to: 'https://www.doherty.edu.au/',
-            },
-            {
-              label: 'The University of Melbourne',
-              to: 'https://www.unimelb.edu.au/',
-            },
-            {
-              label: 'The Royal Melbourne Hospital',
-              to: 'https://www.thermh.org.au/',
-            },
-            {
-              label: 'CDGN',
+              label: 'Communicable Diseases Genomics Network',
               to: 'https://www.cdgn.org.au/',
+            },
+            {
+              label: 'Public Health Laboratory Network',
+              to: 'https://www.health.gov.au/committees-and-groups/phln',
+            },
+            {
+              label: 'OzFoodNet',
+              to: 'https://www.health.gov.au/our-work/ozfoodnet-network',
+            },
+          ],
+        },
+        {
+          title: 'Affiliated Labratories',
+          items: [
+            {
+              label: 'Institute of Clinical Pathology and Medical Research',
+              to: 'https://www.wslhd.health.nsw.gov.au/Education-Portal/Research/Research-Categories/Centre-for-infectious-Diseases-and-Microbiology-Public-Health',
+            },
+            {
+              label: 'Microbiological Diagnostic Unit Public Health Laboratory',
+              to: 'https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory',
+            },
+            {
+              label: 'PathWest',
+              to: 'https://www.pathwest.health.wa.gov.au/',
+            },
+            {
+              label: 'SA Pathology',
+              to: 'https://www.sapathology.sa.gov.au/',
+            },
+            {
+              label: 'ACT Pathology',
+              to: 'https://www.canberrahealthservices.act.gov.au/health-professionals/act-pathology',
+            },
+            {
+              label: 'Royal Hobart Hospital',
+              to: 'https://www.health.tas.gov.au/hospitals/royal-hobart-hospital',
+            },
+            {
+              label: 'Victorian Infectious Diseases Reference Laboratory',
+              to: 'https://www.vidrl.org.au/',
+            },
+            {
+              label: 'Royal Darwin Hospital',
+              to: 'https://nt.gov.au/wellbeing/hospitals-health-services/royal-darwin-hospital',
             },
           ],
         },
@@ -138,16 +153,6 @@ const config: Config = {
             {
               label: 'AusTrakka Documentation',
               to: 'https://docs.austrakka.net/',
-            },
-          ],
-        },
-       
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              to: 'https://github.com/AusTrakka',
             },
           ],
         },

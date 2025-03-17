@@ -9,11 +9,10 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header
+      className={clsx('hero hero--primary', styles.heroBanner)}
+    >
       <div className={styles.heroContainer}>
-        {/* Background div for future image support */}
-        <div className={styles.heroBackground} />
-
         {/* Logo at bottom-left */}
         <div className={styles.logoContainer}>
           <img
