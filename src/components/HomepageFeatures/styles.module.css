@@ -39,3 +39,21 @@
     margin: 0; /* Remove default margins */
     color: var(--austrakka-secondary-variation-darker);
 }
+
+.overviewImage {
+    display: flex;
+    align-items: center;
+    max-height: 650px;
+    margin: 80px auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+figure {
+    margin: 25px auto;
+}
+
+a {
+    color: var(--austrakka-secondary-variation-darker);
+}
+

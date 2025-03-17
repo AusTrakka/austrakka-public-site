@@ -73,9 +73,20 @@ const config: Config = {
       },
       items: [
         {
+          label: 'Overview',
+          position: 'right',
+          href: '/',
+        },
+        {
+          label: 'Governance',
+          position: 'right',
+          labelId: 'governance',
+          to: '/governance',
+        },
+        {
           label: 'Team',
           position: 'right',
-          labelId: 'about',
+          labelId: 'team',
           to: '/about',
         },
         {
@@ -93,23 +104,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Networks',
-          items: [
-            {
-              label: 'Communicable Diseases Genomics Network',
-              to: 'https://www.cdgn.org.au/',
-            },
-            {
-              label: 'Public Health Laboratory Network',
-              to: 'https://www.health.gov.au/committees-and-groups/phln',
-            },
-            {
-              label: 'OzFoodNet',
-              to: 'https://www.health.gov.au/our-work/ozfoodnet-network',
-            },
-          ],
-        },
+
         {
           title: 'Affiliated Labratories',
           items: [
@@ -147,6 +142,24 @@ const config: Config = {
             },
           ],
         },
+        {
+          title: 'Networks',
+          items: [
+            {
+              label: 'Communicable Diseases Genomics Network',
+              to: 'https://www.cdgn.org.au/',
+            },
+            {
+              label: 'Public Health Laboratory Network',
+              to: 'https://www.health.gov.au/committees-and-groups/phln',
+            },
+            {
+              label: 'OzFoodNet',
+              to: 'https://www.health.gov.au/our-work/ozfoodnet-network',
+            },
+          ],
+        },
+    
         {
           title: 'Documentation',
           items: [

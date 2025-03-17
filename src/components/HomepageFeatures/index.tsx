@@ -1,7 +1,7 @@
 import React from 'react';
 import type { ReactNode } from 'react';
 import { Carousel } from 'primereact/carousel';
-import Overview from '@site/docs/overview.md';
+import Overview from '@site/docs/overview.mdx';
 import useBaseUrl from '@docusaurus/core/lib/client/exports/useBaseUrl';
 import styles from './styles.module.css';
 
@@ -86,8 +86,13 @@ export default function HomepageFeatures(): ReactNode {
   return (
     <div className="container">
       <Overview />
+      <img
+        className={styles.overviewImage}
+        src={useBaseUrl('img/at-funcs.png')}
+        alt="Diagram of platform functions and architecture"
+      />
       <hr />
-      <h2>Partners</h2>
+      <h1>Partners</h1>
       <Carousel
         value={partners}
         numVisible={3}
