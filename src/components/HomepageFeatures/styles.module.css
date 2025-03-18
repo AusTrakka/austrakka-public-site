@@ -1,6 +1,6 @@
 .partnerLogo {
-    max-width: 333.33px;
-    max-height: 100px;
+    max-width: 222.2222px;
+    max-height: 77.77777px;
     object-fit: contain; /* Maintains aspect ratio within constraints */
     margin: 0 auto; /* Centers the image horizontally */
     display: block; /* Removes inline element behavior */
