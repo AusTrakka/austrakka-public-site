@@ -21,7 +21,6 @@ hide_table_of_contents: true
 
 - **Ms Mathilda Wilmot**, Genomic Epidemiologist, AusTrakka (VIC)
 - **Dr Caitlin Selway**, Bioinformatician, SA Pathology (SA)
-- **Dr Son Nguyen**, Bioinformatician, PEHRL (QLD)
 - **Dr Kristy Horan**, Bioinformatician, MDU PHL (VIC)
 - **A/Prof Torsten Seemann**, Lead Bioinformatician (VIC)
 - **Dr Ceyhun Güngör**, Program Manager, AusTrakka

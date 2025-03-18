@@ -87,7 +87,7 @@ const config: Config = {
           label: 'Team',
           position: 'right',
           labelId: 'team',
-          to: '/about',
+          to: '/team',
         },
         {
           html: `

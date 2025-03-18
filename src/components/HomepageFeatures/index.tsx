@@ -92,6 +92,13 @@ export default function HomepageFeatures(): ReactNode {
         alt="Diagram of platform functions and architecture"
       />
       <hr />
+      <h1>AusTrakka Ecosystem</h1>
+      <img
+        className={styles.overviewImage}
+        src={useBaseUrl('img/at-ecosystem.png')}
+        alt="Diagram of the AusTrakka ecosystem"
+      />
+      <hr />
       <h1>Partners</h1>
       <Carousel
         value={partners}
