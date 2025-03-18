@@ -68,7 +68,7 @@ const config: Config = {
     navbar: {
       logo: {
         alt: 'AusTrakka Logo',
-        src: 'img/Austrakka_Logo_cmyk.png',
+        src: 'img/AusTrakka_Logo_cmyk.png',
         href: '/',
       },
       items: [
