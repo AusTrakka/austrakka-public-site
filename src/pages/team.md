@@ -22,7 +22,6 @@ hide_table_of_contents: true
 - **Ms Mathilda Wilmot**, Genomic Epidemiologist, AusTrakka (VIC)
 - **Dr Caitlin Selway**, Bioinformatician, SA Pathology (SA)
 - **Dr Kristy Horan**, Bioinformatician, MDU PHL (VIC)
-- **A/Prof Torsten Seemann**, Lead Bioinformatician (VIC)
 - **Dr Ceyhun Güngör**, Program Manager, AusTrakka
 - **Ms Erin Flynn**, Genomic Epidemiologist , SA pathology (SA) 
 - **Dr Shona Chandra**, Genomic Epidemiologist , ICPMR (NSW)
@@ -32,7 +31,6 @@ hide_table_of_contents: true
 
 ## AusTrakka Development Team
 
-- **A/Prof Torsten Seemann**, Lead Bioinformatician (UOM)
 - **Dr Clare Sloggett**, Lead Developer (UOM)
 - **Mr Samuel Carswell**, Lead DevOps (UOM)
 - **Mr Vi Phu**, Senior Software Engineer (UOM)
