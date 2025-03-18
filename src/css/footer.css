@@ -1,0 +1,11 @@
+.footer__link-item:hover {
+    color: var(--austrakka-secondary);
+}
+
+.footer {
+    padding: 1rem 1rem;
+    background-image: url('../../static/img/dna.webp');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
