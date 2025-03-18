@@ -1,3 +1,5 @@
 node_modules/
-
 .idea
+.docusaurus/docusaurus-plugin-debug
+.docusaurus
+krita-files

@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -7,10 +7,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'AusTrakka',
   tagline: 'Real-time pathogen genomics surveillance',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/austrakka_favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://austrakka.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -25,6 +25,13 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  
+  stylesheets: [
+    {
+      href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css',
+      type: 'text/css',
+    },
+  ],
 
   presets: [
     [
@@ -32,19 +39,26 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: [
+            './src/css/custom.css',
+            './src/css/navbar.css',
+            './src/css/footer.css',
+            './src/css/content.css',
+          ],
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
+    metadata: [
+      {
+        name: 'title',
+        content: 'AusTrakka | Real-time pathogen genomics surveillance',
+      },
+    ],
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
@@ -54,63 +68,108 @@ const config: Config = {
     navbar: {
       logo: {
         alt: 'AusTrakka Logo',
-        src: 'img/Austrakka_Logo_cmyk.png',
-        width: 100, // Adjust as needed
-        height: 20, // Adjust as needed
+        src: 'img/AusTrakka_Logo_cmyk.png',
+        href: '/',
       },
       items: [
         {
-          label: 'Sign In',
-          href: 'https://austrakka.net',
+          label: 'Overview',
           position: 'right',
-          className: 'sign-in-button',
-        }
+          href: '/',
+        },
+        {
+          label: 'Governance',
+          position: 'right',
+          labelId: 'governance',
+          to: '/governance',
+        },
+        {
+          label: 'Team',
+          position: 'right',
+          labelId: 'team',
+          to: '/team',
+        },
+        {
+          html: `
+            <span class="sign-in-button">
+              LOGIN
+              <i class="fas fa-sign-in-alt" style="margin-left: 8px;"></i> <!-- Icon on the right -->
+            </span>
+          `,
+          position: 'right',
+          to: 'https://portal.austrakka.net',
+        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
+
         {
-          title: 'Docs',
+          title: 'Affiliated Labratories',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Institute of Clinical Pathology and Medical Research',
+              to: 'https://www.wslhd.health.nsw.gov.au/Education-Portal/Research/Research-Categories/Centre-for-infectious-Diseases-and-Microbiology-Public-Health',
+            },
+            {
+              label: 'Microbiological Diagnostic Unit Public Health Laboratory',
+              to: 'https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory',
+            },
+            {
+              label: 'PathWest',
+              to: 'https://www.pathwest.health.wa.gov.au/',
+            },
+            {
+              label: 'SA Pathology',
+              to: 'https://www.sapathology.sa.gov.au/',
+            },
+            {
+              label: 'ACT Pathology',
+              to: 'https://www.canberrahealthservices.act.gov.au/health-professionals/act-pathology',
+            },
+            {
+              label: 'Royal Hobart Hospital',
+              to: 'https://www.health.tas.gov.au/hospitals/royal-hobart-hospital',
+            },
+            {
+              label: 'Victorian Infectious Diseases Reference Laboratory',
+              to: 'https://www.vidrl.org.au/',
+            },
+            {
+              label: 'Royal Darwin Hospital',
+              to: 'https://nt.gov.au/wellbeing/hospitals-health-services/royal-darwin-hospital',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Networks',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Communicable Diseases Genomics Network',
+              to: 'https://www.cdgn.org.au/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Public Health Laboratory Network',
+              to: 'https://www.health.gov.au/committees-and-groups/phln',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'OzFoodNet',
+              to: 'https://www.health.gov.au/our-work/ozfoodnet-network',
             },
           ],
         },
+    
         {
-          title: 'More',
+          title: 'Documentation',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'AusTrakka Documentation',
+              to: 'https://docs.austrakka.net/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

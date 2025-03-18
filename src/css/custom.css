@@ -6,15 +6,35 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+    --ifm-color-primary: #043647;
+    --ifm-color-primary-dark: #043140;
+    --ifm-color-primary-darker: #032e3c;
+    --ifm-color-primary-darkest: #032632;
+    --ifm-color-primary-light: #043b4e;
+    --ifm-color-primary-lighter: #053e52;
+    --ifm-color-primary-lightest: #05465c;
+    --ifm-color-secondary: #E6E7E8;
+    --ifm-color-success: #68934B;
+    --ifm-color-info: #014F86;
+    --ifm-color-warning: #FCAF17;
+    --ifm-color-danger: #D7534C;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+    --austrakka-secondary: #90CA6D;
+    --austrakka-primary-grey: #E6E7E8;
+    --austrakka-black: #353333;
+    --austrakka-secondary-grey: #B3B3B3;
+    --austrakka-primary-variation: #3E7784;
+    --austrakka-secondary-variation: #68934B;
+    --austrakka-secondary-variation-darker: #375C2B;
+    --austrakka-info-blue: #014F86;
+    --austrakka-lavender: #B9A8D2;
+    --austrakka-error-red: #D7534C;
+    --austrakka-interactive-red: #A81E2C;
+    --austrakka-warning-yellow: #FCAF17;
+    --ifm-font-family-base: "Roboto", sans-serif;
+    --ifm-navbar-link-color: var(--austrakka-black);
+    --ifm-navbar-link-hover-color: var(--austrakka-secondary-variation);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -29,44 +49,17 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-
-.sign-in-button {
-  display: inline-block;
-  padding: 8px 16px;
-  background-color: #007bff;
-  color: white;
-  border-radius: 4px;
-  text-decoration: none;
+@font-face {
+  font-family: "Roboto";
+  src: url('../../static/fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Roboto";
+  src: url('../../static/fonts/Roboto-Bold.ttf') format('truetype');
   font-weight: bold;
 }
 
-.sign-in-button:hover {
-  background-color: #0056b3;
-}
-
-/* Increase navbar height */
-.navbar {
-  height: 80px; /* Adjust as needed */
-  display: flex;
-  align-items: center;
-}
-
-/* Ensure the logo is centered vertically */
-.navbar__logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-/* Adjust the logo size */
-.navbar__logo img {
-  height: 60px; /* Adjust as needed */
-  width: auto;
-}
-
-.navbar__inner {
-  height: 100%;
-  display: flex;
-  align-items: center;
+.p-carousel {
+    padding-top: 10px;
+    margin: 70px auto;
 }
