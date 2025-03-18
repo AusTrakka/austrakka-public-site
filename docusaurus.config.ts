@@ -75,7 +75,8 @@ const config: Config = {
         {
           label: 'Overview',
           position: 'right',
-          href: '/',
+          to: '/',
+          exact: true,
         },
         {
           label: 'Governance',
