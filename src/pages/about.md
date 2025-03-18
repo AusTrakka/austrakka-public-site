@@ -34,7 +34,7 @@ hide_table_of_contents: true
 ## AusTrakka Development Team
 
 - **A/Prof Torsten Seemann**, Lead Bioinformatician (UOM)
-- **Dr Clare Sloggett**, Lead DevOps (UOM)
-- **Mr Samuel Carswell**, DevOps (UOM)
-- **Mr Vi Phu**, Software Engineer (UOM)
+- **Dr Clare Sloggett**, Lead Developer (UOM)
+- **Mr Samuel Carswell**, Lead DevOps (UOM)
+- **Mr Vi Phu**, Senior Software Engineer (UOM)
 - **Mr Mann Sheth**, Software Engineer (UOM)
