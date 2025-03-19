@@ -8,19 +8,19 @@ import styles from './styles.module.css';
 export default function HomepageFeatures(): ReactNode {
   const partners = [
     {
+      name: 'ACT Pathology',
+      image: useBaseUrl('img/act-path.png'),
+      url: 'https://www.canberrahealthservices.act.gov.au/health-professionals/act-pathology',
+    },
+    {
+      name: 'Australian Health Protection Principal Committee',
+      image: useBaseUrl('img/ahppc.jpg'),
+      url: 'https://www.directory.gov.au/portfolios/health-and-aged-care/department-health-and-aged-care/australian-health-protection-principal-committee',
+    },
+    {
       name: 'Communicable Diseases Genomics Network',
       image: useBaseUrl('img/CDGN-logo-transparent.png'),
       url: 'https://www.cdgn.org.au',
-    },
-    {
-      name: 'Public Health Laboratory Network',
-      image: useBaseUrl('img/phln.jpg'),
-      url: 'https://www.health.gov.au/committees-and-groups/phln',
-    },
-    {
-      name: 'OzFoodNet Network',
-      image: useBaseUrl('img/ozfoodnet.jpg'),
-      url: 'https://www.health.gov.au/our-work/ozfoodnet-network',
     },
     {
       name: 'Institute of Clinical Pathology and Medical Research',
@@ -33,19 +33,24 @@ export default function HomepageFeatures(): ReactNode {
       url: 'https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory',
     },
     {
+      name: 'OzFoodNet Network',
+      image: useBaseUrl('img/ozfoodnet.jpg'),
+      url: 'https://www.health.gov.au/our-work/ozfoodnet-network',
+    },
+    {
       name: 'PathWest',
       image: useBaseUrl('img/pathwest.png'),
       url: 'https://www.pathwest.health.wa.gov.au/',
     },
     {
-      name: 'SA Pathology',
-      image: useBaseUrl('img/sa-path.webp'),
-      url: 'https://www.sapathology.sa.gov.au/',
+      name: 'Public Health Laboratory Network',
+      image: useBaseUrl('img/phln.jpg'),
+      url: 'https://www.health.gov.au/committees-and-groups/phln',
     },
     {
-      name: 'ACT Pathology',
-      image: useBaseUrl('img/act-path.png'),
-      url: 'https://www.canberrahealthservices.act.gov.au/health-professionals/act-pathology',
+      name: 'Royal Darwin Hospital',
+      image: useBaseUrl('img/royaldarwin.jpg'),
+      url: 'https://nt.gov.au/wellbeing/hospitals-health-services/royal-darwin-hospital',
     },
     {
       name: 'Royal Hobart Hospital',
@@ -53,14 +58,14 @@ export default function HomepageFeatures(): ReactNode {
       url: 'https://www.health.tas.gov.au/hospitals/royal-hobart-hospital',
     },
     {
+      name: 'SA Pathology',
+      image: useBaseUrl('img/sa-path.webp'),
+      url: 'https://www.sapathology.sa.gov.au/',
+    },
+    {
       name: 'Victorian Infectious Diseases Reference Laboratory',
       image: useBaseUrl('img/vidrl.jpg'),
       url: 'https://www.vidrl.org.au/',
-    },
-    {
-      name: 'Royal Darwin Hospital',
-      image: useBaseUrl('img/royaldarwin.jpg'),
-      url: 'https://nt.gov.au/wellbeing/hospitals-health-services/royal-darwin-hospital',
     },
   ];
   
