@@ -17,3 +17,8 @@ hr {
           color-mix(in srgb, var(--austrakka-secondary-variation) 0%, transparent)
   );
 }
+
+h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
