@@ -110,6 +110,10 @@ const config: Config = {
           title: 'Affiliated Labratories',
           items: [
             {
+              label: 'ACT Pathology',
+              to: 'https://www.canberrahealthservices.act.gov.au/health-professionals/act-pathology',
+            },
+            {
               label: 'Institute of Clinical Pathology and Medical Research',
               to: 'https://www.wslhd.health.nsw.gov.au/Education-Portal/Research/Research-Categories/Centre-for-infectious-Diseases-and-Microbiology-Public-Health',
             },
@@ -122,24 +126,20 @@ const config: Config = {
               to: 'https://www.pathwest.health.wa.gov.au/',
             },
             {
-              label: 'SA Pathology',
-              to: 'https://www.sapathology.sa.gov.au/',
-            },
-            {
-              label: 'ACT Pathology',
-              to: 'https://www.canberrahealthservices.act.gov.au/health-professionals/act-pathology',
+              label: 'Royal Darwin Hospital',
+              to: 'https://nt.gov.au/wellbeing/hospitals-health-services/royal-darwin-hospital',
             },
             {
               label: 'Royal Hobart Hospital',
               to: 'https://www.health.tas.gov.au/hospitals/royal-hobart-hospital',
             },
             {
-              label: 'Victorian Infectious Diseases Reference Laboratory',
-              to: 'https://www.vidrl.org.au/',
+              label: 'SA Pathology',
+              to: 'https://www.sapathology.sa.gov.au/',
             },
             {
-              label: 'Royal Darwin Hospital',
-              to: 'https://nt.gov.au/wellbeing/hospitals-health-services/royal-darwin-hospital',
+              label: 'Victorian Infectious Diseases Reference Laboratory',
+              to: 'https://www.vidrl.org.au/',
             },
           ],
         },
@@ -147,16 +147,20 @@ const config: Config = {
           title: 'Networks',
           items: [
             {
+              label: 'Australian Health Protection Principal Committee',
+              to: 'https://www.directory.gov.au/portfolios/health-and-aged-care/department-health-and-aged-care/australian-health-protection-principal-committee',
+            },
+            {
               label: 'Communicable Diseases Genomics Network',
               to: 'https://www.cdgn.org.au/',
             },
             {
-              label: 'Public Health Laboratory Network',
-              to: 'https://www.health.gov.au/committees-and-groups/phln',
-            },
-            {
               label: 'OzFoodNet',
               to: 'https://www.health.gov.au/our-work/ozfoodnet-network',
+            },
+            {
+              label: 'Public Health Laboratory Network',
+              to: 'https://www.health.gov.au/committees-and-groups/phln',
             },
           ],
         },

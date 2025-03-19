@@ -3,6 +3,8 @@ title: AusTrakka Teams
 hide_table_of_contents: true
 ---
 
+# AusTrakka Team
+
 
 ## AusTrakka Advisory Group
 - **Prof Benjamin Howden**, MDU PHL (VIC)
@@ -23,10 +25,10 @@ hide_table_of_contents: true
 - **Dr Caitlin Selway**, Bioinformatician, SA Pathology (SA)
 - **Dr Kristy Horan**, Bioinformatician, MDU PHL (VIC)
 - **Dr Ceyhun Güngör**, Program Manager, AusTrakka
-- **Ms Erin Flynn**, Genomic Epidemiologist , SA pathology (SA) 
-- **Dr Shona Chandra**, Genomic Epidemiologist , ICPMR (NSW)
+- **Ms Erin Flynn**, Genomic Epidemiologist, SA pathology (SA) 
+- **Dr Shona Chandra**, Genomic Epidemiologist, ICPMR (NSW)
 - **Dr Daniel Knight**, Genomic Epidemiologist, Path West (WA)
-- **Ms Krystalyn Martin**, Genomic Epidemiologit, PEHRL (QLD)
+- **Ms Krystalyn Martin**, Genomic Epidemiologist, PEHRL (QLD)
 - **Ms Linh Nguyen**, Bioinformatician, PEHRL (QLD)
 
 ## AusTrakka Development Team
