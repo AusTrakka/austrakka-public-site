@@ -25,7 +25,7 @@ hide_table_of_contents: true
 - **Dr Caitlin Selway**, Bioinformatician, SA Pathology (SA)
 - **Dr Kristy Horan**, Bioinformatician, MDU PHL (VIC)
 - **Dr Ceyhun Güngör**, Program Manager, AusTrakka
-- **Ms Erin Flynn**, Genomic Epidemiologist, SA pathology (SA) 
+- **Ms Erin Flynn**, Genomic Epidemiologist, SA Pathology (SA) 
 - **Dr Shona Chandra**, Genomic Epidemiologist, ICPMR (NSW)
 - **Dr Daniel Knight**, Genomic Epidemiologist, Path West (WA)
 - **Ms Krystalyn Martin**, Genomic Epidemiologist, PEHRL (QLD)

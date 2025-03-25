@@ -16,7 +16,7 @@ function HomepageHeader() {
         {/* Logo at bottom-left */}
         <div className={styles.logoContainer}>
           <img
-            src={useBaseUrl('img/AusTrakka_Logo_white.png')}
+            src={useBaseUrl('img/branding/AusTrakka_Logo_white.png')}
             alt="AusTrakka Logo"
             className={styles.heroLogo}
           />
