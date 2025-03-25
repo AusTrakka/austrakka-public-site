@@ -114,11 +114,15 @@ const config: Config = {
             },
             {
               label: 'Institute of Clinical Pathology and Medical Research',
-              to: 'https://www.wslhd.health.nsw.gov.au/Education-Portal/Research/Research-Categories/Centre-for-infectious-Diseases-and-Microbiology-Public-Health',
+              to: 'https://pathology.health.nsw.gov.au/',
             },
             {
               label: 'Microbiological Diagnostic Unit Public Health Laboratory',
               to: 'https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory',
+            },
+            {
+              label: 'Public and Environmental Health Reference Laboratory',
+              to: 'https://www.health.qld.gov.au/',
             },
             {
               label: 'PathWest',
