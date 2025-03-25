@@ -106,7 +106,7 @@ const config: Config = {
       links: [
 
         {
-          title: 'Affiliated Labratories',
+          title: 'Affiliated Laboratories',
           items: [
             {
               label: 'ACT Pathology',
