@@ -4,7 +4,7 @@
   position: relative;
   overflow: hidden;
   max-height: 300px;
-  background-image: url('../../static/img/austrakka-banner-no-border.svg'), 
+  background-image: url('../../static/img/branding/austrakka-banner-no-border.svg'), 
     radial-gradient(ellipse at bottom, var(--ifm-color-primary) 75%, color-mix(in srgb, var(--austrakka-secondary-variation), transparent 30%) 100%);
   background-position: center;
   background-size: auto;

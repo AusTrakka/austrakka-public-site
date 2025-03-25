@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'AusTrakka',
   tagline: 'Real-time pathogen genomics surveillance',
-  favicon: 'img/austrakka_favicon.ico',
+  favicon: 'img/branding/austrakka_favicon.ico',
 
   // Set the production url of your site here
   url: 'https://austrakka.net',
@@ -35,20 +35,20 @@ const config: Config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: require.resolve('./sidebars.ts'),
         },
         theme: {
           customCss: [
-            './src/css/custom.css',
-            './src/css/navbar.css',
-            './src/css/footer.css',
-            './src/css/content.css',
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/navbar.css'),
+            require.resolve('./src/css/footer.css'),
+            require.resolve('./src/css/content.css'),
           ],
         },
-      } satisfies Preset.Options,
+      },
     ],
   ],
 
@@ -63,11 +63,11 @@ const config: Config = {
       defaultMode: 'light',
       disableSwitch: true,
     },
-    image: 'img/austrakka-social-card.png',
+    image: 'img/branding/austrakka-social-card.png',
     navbar: {
       logo: {
         alt: 'AusTrakka Logo',
-        src: 'img/AusTrakka_Logo_cmyk.png',
+        src: 'img/branding/AusTrakka_Logo_cmyk.png',
         href: '/',
       },
       items: [
