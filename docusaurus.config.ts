@@ -97,7 +97,7 @@ const config: Config = {
             </span>
           `,
           position: 'right',
-          to: 'https://portal.austrakka.net',
+          to: 'https://portal.austrakka.net?auto_login=true',
         },
       ],
     },
