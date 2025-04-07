@@ -16,7 +16,7 @@ hide_table_of_contents: true
 - **Dr Michel Watson**, Australian Government (Cth)
 - **Ms Tuyet Hoang**, AusTrakka
 - **Dr Ceyhun Güngör**, AusTrakka
-- **Prof David Speers**, Path West (WA)
+- **Prof David Speers**, PathWest (WA)
 
 
 ## AusTrakka National Analysis Team
@@ -27,7 +27,7 @@ hide_table_of_contents: true
 - **Dr Ceyhun Güngör**, Program Manager, AusTrakka
 - **Ms Erin Flynn**, Genomic Epidemiologist, SA Pathology (SA) 
 - **Dr Shona Chandra**, Genomic Epidemiologist, ICPMR (NSW)
-- **Dr Daniel Knight**, Genomic Epidemiologist, Path West (WA)
+- **Dr Daniel Knight**, Genomic Epidemiologist, PathWest (WA)
 - **Ms Krystalyn Martin**, Genomic Epidemiologist, PEHRL (QLD)
 - **Ms Linh Nguyen**, Bioinformatician, PEHRL (QLD)
 
