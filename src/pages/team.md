@@ -37,3 +37,8 @@ hide_table_of_contents: true
 - **Mr Samuel Carswell**, Lead DevOps (UOM)
 - **Mr Vi Phu**, Senior Software Engineer (UOM)
 - **Mr Mann Sheth**, Software Engineer (UOM)
+
+## Development Team Alumni
+
+- **Dr Wytamma Wirth**, The Peter Doherty Institute for Infection and Immunity
+- **Dr Jolene Farrell**, The Peter Doherty Institute for Infection and Immunity
