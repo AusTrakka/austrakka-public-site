@@ -41,4 +41,4 @@ hide_table_of_contents: true
 ## Development Team Alumni
 
 - **Dr Wytamma Wirth**, The Peter Doherty Institute for Infection and Immunity
-- **Dr Jolene Farrell**, The Peter Doherty Institute for Infection and Immunity
+- **Ms Jolene Langevin**, The Peter Doherty Institute for Infection and Immunity
