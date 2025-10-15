@@ -5,8 +5,8 @@ hide_table_of_contents: true
 
 # AusTrakka Team
 
+## AusTrakka Executive Group (AEG)
 
-## AusTrakka Advisory Group
 - **Prof Benjamin Howden**, MDU PHL (VIC)
 - **A/Prof Amy Jennison**, PEHRL (QLD)
 - **Prof Vitali Sintchenko**, ICPMR (NSW)
@@ -14,31 +14,39 @@ hide_table_of_contents: true
 - **Dr Lex Leong**, SA Pathology (SA)
 - **Ms Amy Black**, Australian Government (Cth)
 - **Dr Michel Watson**, Australian Government (Cth)
-- **Ms Tuyet Hoang**, AusTrakka
-- **Dr Ceyhun Güngör**, AusTrakka
+- **Ms Tuyet Hoang**, AusTrakka 
 - **Prof David Speers**, PathWest (WA)
 
+## AusTrakka National Analysis Team (ANAT)
 
-## AusTrakka National Analysis Team
-
-- **Ms Mathilda Wilmot**, Genomic Epidemiologist, AusTrakka (VIC)
 - **Dr Caitlin Selway**, Bioinformatician, SA Pathology (SA)
 - **Dr Kristy Horan**, Bioinformatician, MDU PHL (VIC)
-- **Dr Ceyhun Güngör**, Program Manager, AusTrakka
-- **Ms Erin Flynn**, Genomic Epidemiologist, SA Pathology (SA) 
-- **Dr Shona Chandra**, Genomic Epidemiologist, ICPMR (NSW)
-- **Dr Daniel Knight**, Genomic Epidemiologist, PathWest (WA)
 - **Ms Krystalyn Martin**, Genomic Epidemiologist, PEHRL (QLD)
-- **Ms Linh Nguyen**, Bioinformatician, PEHRL (QLD)
+- **Ms Erin Flynn**, Genomic Epidemiologist, SA Pathology (SA) 
+- **Dr Daniel Knight**, Genomic Epidemiologist, PathWest (WA)
+- **Ms Mathilda Wilmot**, Genomic Epidemiologist, AusTrakka (VIC)
+- **Dr Connie Lam**, Genomic Epidemiologist, AusTrakka (NSW)
+- **Dr Alicia Arnott**, Genomic Epidemiologist, AusTrakka (VIC)
 
-## AusTrakka Development Team
+## AusTrakka Development Team 
 
-- **Dr Clare Sloggett**, Lead Developer (UOM)
-- **Mr Samuel Carswell**, Lead DevOps (UOM)
-- **Mr Vi Phu**, Senior Software Engineer (UOM)
-- **Mr Mann Sheth**, Software Engineer (UOM)
+- **Dr Clare Sloggett**, Lead Developer
+- **Mr Samuel Carswell**, Lead DevOps
+- **Mr Mann Sheth**, Software Engineer
+- **Ms Jolene Langevin**, Software Engineer
 
-## Development Team Alumni
+## Leadership Team
 
-- **Dr Wytamma Wirth**, The Peter Doherty Institute for Infection and Immunity
-- **Ms Jolene Langevin**, The Peter Doherty Institute for Infection and Immunity
+- **Prof Benjamin Howden**, Clinical and public health
+- **A/Prof Torsten Seemann**, Bioinformatics & data sharing
+- **Ms Tuyet Hoang**, Governance & policy 
+- **Dr Clare Sloggett**, Platform Architect
+
+## Previous members and contributors
+
+- **Dr Anders Gonçalves da Silva**, Co-founder, Lead Developer (R.I.P)
+- **Dr Ceyhun Güngör**, AusTrakka Project Manager
+- **Mr Vi Phu**, Senior Software Engineer
+- **Ms Linh Nguyen**, AusTrakka NAT Bioinformatician
+- **Dr Shona Chandra**, Austrakka NAT Genomic Epidemiologist
+- **Dr Wytamma Wirth**, Software Engineer
