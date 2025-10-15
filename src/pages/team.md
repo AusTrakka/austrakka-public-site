@@ -35,9 +35,17 @@ hide_table_of_contents: true
 - **Mr Mann Sheth**, Software Engineer
 - **Ms Jolene Langevin**, Software Engineer
 
+## Leadership Team
+
+- **Prof Benjamin Howden**, Clinical and public health
+- **A/Prof Torsten Seemann**, Bioinformatics & data sharing
+- **Ms Tuyet Hoang**, Governance & policy 
+- **Dr Clare Sloggett**, Platform Architect
+
 ## Previous members and contributors
 
-- **Dr Ceyhun Güngör**, AusTrakka Project Managar
+- **Dr Anders Gonçalves da Silva**, Co-founder, Lead Developer (R.I.P)
+- **Dr Ceyhun Güngör**, AusTrakka Project Manager
 - **Mr Vi Phu**, Senior Software Engineer
 - **Ms Linh Nguyen**, AusTrakka NAT Bioinformatician
 - **Dr Shona Chandra**, Austrakka NAT Genomic Epidemiologist
