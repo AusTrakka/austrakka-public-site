@@ -5,7 +5,7 @@ hide_table_of_contents: true
 
 # AusTrakka Team
 
-## AusTrakka Advisory Group
+## AusTrakka Executive Group (AEG)
 
 - **Prof Benjamin Howden**, MDU PHL (VIC)
 - **A/Prof Amy Jennison**, PEHRL (QLD)
@@ -14,10 +14,10 @@ hide_table_of_contents: true
 - **Dr Lex Leong**, SA Pathology (SA)
 - **Ms Amy Black**, Australian Government (Cth)
 - **Dr Michel Watson**, Australian Government (Cth)
-- **Ms Tuyet Hoang**, AusTrakka
+- **Ms Tuyet Hoang**, AusTrakka 
 - **Prof David Speers**, PathWest (WA)
 
-## AusTrakka National Analysis Team
+## AusTrakka National Analysis Team (ANAT)
 
 - **Dr Caitlin Selway**, Bioinformatician, SA Pathology (SA)
 - **Dr Kristy Horan**, Bioinformatician, MDU PHL (VIC)
@@ -25,18 +25,20 @@ hide_table_of_contents: true
 - **Ms Erin Flynn**, Genomic Epidemiologist, SA Pathology (SA) 
 - **Dr Daniel Knight**, Genomic Epidemiologist, PathWest (WA)
 - **Ms Mathilda Wilmot**, Genomic Epidemiologist, AusTrakka (VIC)
+- **Dr Connie Lam**, Genomic Epidemiologist, AusTrakka (NSW)
+- **Dr Alicia Arnott**, Genomic Epidemiologist, AusTrakka (VIC)
 
-## AusTrakka Development Team
+## AusTrakka Development Team 
 
 - **Dr Clare Sloggett**, Lead Developer
 - **Mr Samuel Carswell**, Lead DevOps
 - **Mr Mann Sheth**, Software Engineer
 - **Ms Jolene Langevin**, Software Engineer
 
-## Alumni
+## Previous members and contributors
 
 - **Dr Ceyhun Güngör**, AusTrakka Project Managar
 - **Mr Vi Phu**, Senior Software Engineer
-- **Ms Linh Nguyen**, NusTrakka NAT Bioinformatician
+- **Ms Linh Nguyen**, AusTrakka NAT Bioinformatician
 - **Dr Shona Chandra**, Austrakka NAT Genomic Epidemiologist
 - **Dr Wytamma Wirth**, Software Engineer
