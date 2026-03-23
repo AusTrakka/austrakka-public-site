@@ -9,21 +9,20 @@ hide_table_of_contents: true
 
 - **Prof Benjamin Howden**, MDU PHL (VIC)
 - **A/Prof Amy Jennison**, PEHRL (QLD)
+- **Prof Torsten Seemann**, AusTrakka
 - **Prof Vitali Sintchenko**, ICPMR (NSW)
-- **A/Prof Torsten Seemann**, AusTrakka and MDU PHL (VIC)
+- **Ms Amy Black**, Australian CDC
+- **Dr Michel Watson**, Australian CDC
+- **Ms Tuyet Hoang**, AusTrakka
 - **Dr Lex Leong**, SA Pathology (SA)
-- **Ms Amy Black**, Australian Government (Cth)
-- **Dr Michel Watson**, Australian Government (Cth)
-- **Ms Tuyet Hoang**, AusTrakka 
 - **Prof David Speers**, PathWest (WA)
 
 ## AusTrakka National Analysis Team (ANAT)
 
 - **Dr Caitlin Selway**, Bioinformatician, SA Pathology (SA)
-- **Dr Kristy Horan**, Bioinformatician, MDU PHL (VIC)
+- **Dr Kristy Horan**, Bioinformatician, AusTrakka (VIC)
+- **Dr Binit Lamichhane**, Bioinformatician, PathWest (SA)
 - **Ms Krystalyn Martin**, Genomic Epidemiologist, PEHRL (QLD)
-- **Ms Erin Flynn**, Genomic Epidemiologist, SA Pathology (SA) 
-- **Dr Daniel Knight**, Genomic Epidemiologist, PathWest (WA)
 - **Ms Mathilda Wilmot**, Genomic Epidemiologist, AusTrakka (VIC)
 - **Dr Connie Lam**, Genomic Epidemiologist, AusTrakka (NSW)
 - **Dr Alicia Arnott**, Genomic Epidemiologist, AusTrakka (VIC)
@@ -37,16 +36,18 @@ hide_table_of_contents: true
 
 ## Leadership Team
 
-- **Prof Benjamin Howden**, Clinical and public health
-- **A/Prof Torsten Seemann**, Bioinformatics & data sharing
+- **Prof Benjamin Howden**, Clinical & public health microbiology
+- **Prof Torsten Seemann**, Bioinformatics & data sharing
 - **Ms Tuyet Hoang**, Governance & policy 
 - **Dr Clare Sloggett**, Platform Architect
+- **Ms Amy Corbett**, Project manager
 
-## Previous members and contributors
+## Alumnni and contributors
 
 - **Dr Anders Gonçalves da Silva**, Co-founder, Lead Developer (R.I.P)
 - **Dr Ceyhun Güngör**, AusTrakka Project Manager
 - **Mr Vi Phu**, Senior Software Engineer
 - **Ms Linh Nguyen**, AusTrakka NAT Bioinformatician
 - **Dr Shona Chandra**, Austrakka NAT Genomic Epidemiologist
+- **Dr Daniel Knight**, Austrakka NAT, Genomic Epidemiologist
 - **Dr Wytamma Wirth**, Software Engineer
