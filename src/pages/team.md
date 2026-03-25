@@ -21,7 +21,7 @@ hide_table_of_contents: true
 
 - **Dr Caitlin Selway**, Bioinformatician, SA Pathology (SA)
 - **Dr Kristy Horan**, Bioinformatician, AusTrakka (VIC)
-- **Dr Binit Lamichhane**, Bioinformatician, PathWest (SA)
+- **Dr Binit Lamichhane**, Bioinformatician, PathWest (WA)
 - **Ms Krystalyn Martin**, Genomic Epidemiologist, PEHRL (QLD)
 - **Ms Mathilda Wilmot**, Genomic Epidemiologist, AusTrakka (VIC)
 - **Dr Connie Lam**, Genomic Epidemiologist, AusTrakka (NSW)
