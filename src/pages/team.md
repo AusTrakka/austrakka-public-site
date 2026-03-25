@@ -24,7 +24,7 @@ hide_table_of_contents: true
 
 - **Dr Caitlin Selway**, Bioinformatician, SA Pathology (SA)
 - **Dr Kristy Horan**, Bioinformatician, MDU PHL (VIC)
-- **Dr Binit Lamichhane**, Bioinformatician, PathWest (SA)
+- **Dr Binit Lamichhane**, Bioinformatician, PathWest (WA)
 - **Dr Koen Vandelannoote**, Bioinformatician, Royal Hobart (TAS)
 - **Ms Krystalyn Martin**, Genomic Epidemiologist, PEHRL (QLD)
 - **Ms Mathilda Wilmot**, Genomic Epidemiologist, MDU PHL (VIC)
