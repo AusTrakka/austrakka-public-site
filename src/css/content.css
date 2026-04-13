@@ -11,14 +11,14 @@ hr {
   border: 0;
   height: 2px;
   background-image: linear-gradient(
-          to right,
-          var(--austrakka-secondary-variation),
-          color-mix(in srgb, var(--austrakka-secondary-variation) 40%, transparent),
-          color-mix(in srgb, var(--austrakka-secondary-variation) 0%, transparent)
+    to right,
+    var(--austrakka-secondary-variation),
+    color-mix(in srgb, var(--austrakka-secondary-variation) 40%, transparent),
+    color-mix(in srgb, var(--austrakka-secondary-variation) 0%, transparent)
   );
 }
 
 h2 {
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }

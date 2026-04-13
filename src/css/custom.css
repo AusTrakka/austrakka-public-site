@@ -6,39 +6,39 @@
 
 /* You can override the default Infima variables here. */
 :root {
-    --ifm-color-primary: #043647;
-    --ifm-color-primary-dark: #043140;
-    --ifm-color-primary-darker: #032e3c;
-    --ifm-color-primary-darkest: #032632;
-    --ifm-color-primary-light: #043b4e;
-    --ifm-color-primary-lighter: #053e52;
-    --ifm-color-primary-lightest: #05465c;
-    --ifm-color-secondary: #E6E7E8;
-    --ifm-color-success: #68934B;
-    --ifm-color-info: #014F86;
-    --ifm-color-warning: #FCAF17;
-    --ifm-color-danger: #D7534C;
+  --ifm-color-primary: #043647;
+  --ifm-color-primary-dark: #043140;
+  --ifm-color-primary-darker: #032e3c;
+  --ifm-color-primary-darkest: #032632;
+  --ifm-color-primary-light: #043b4e;
+  --ifm-color-primary-lighter: #053e52;
+  --ifm-color-primary-lightest: #05465c;
+  --ifm-color-secondary: #e6e7e8;
+  --ifm-color-success: #68934b;
+  --ifm-color-info: #014f86;
+  --ifm-color-warning: #fcaf17;
+  --ifm-color-danger: #d7534c;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-    --austrakka-secondary: #90CA6D;
-    --austrakka-primary-grey: #E6E7E8;
-    --austrakka-black: #353333;
-    --austrakka-secondary-grey: #B3B3B3;
-    --austrakka-primary-variation: #3E7784;
-    --austrakka-secondary-variation: #68934B;
-    --austrakka-secondary-variation-darker: #375C2B;
-    --austrakka-info-blue: #014F86;
-    --austrakka-lavender: #B9A8D2;
-    --austrakka-error-red: #D7534C;
-    --austrakka-interactive-red: #A81E2C;
-    --austrakka-warning-yellow: #FCAF17;
-    --ifm-font-family-base: "Roboto", sans-serif;
-    --ifm-navbar-link-color: var(--austrakka-black);
-    --ifm-navbar-link-hover-color: var(--austrakka-secondary-variation);
+  --austrakka-secondary: #90ca6d;
+  --austrakka-primary-grey: #e6e7e8;
+  --austrakka-black: #353333;
+  --austrakka-secondary-grey: #b3b3b3;
+  --austrakka-primary-variation: #3e7784;
+  --austrakka-secondary-variation: #68934b;
+  --austrakka-secondary-variation-darker: #375c2b;
+  --austrakka-info-blue: #014f86;
+  --austrakka-lavender: #b9a8d2;
+  --austrakka-error-red: #d7534c;
+  --austrakka-interactive-red: #a81e2c;
+  --austrakka-warning-yellow: #fcaf17;
+  --ifm-font-family-base: "Roboto", sans-serif;
+  --ifm-navbar-link-color: var(--austrakka-black);
+  --ifm-navbar-link-hover-color: var(--austrakka-secondary-variation);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -51,15 +51,52 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url('../../static/fonts/Roboto-Regular.ttf') format('truetype');
+  src: url("../../static/fonts/Roboto-Regular.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Roboto";
-  src: url('../../static/fonts/Roboto-Bold.ttf') format('truetype');
+  src: url("../../static/fonts/Roboto-Bold.ttf") format("truetype");
   font-weight: bold;
 }
 
-.p-carousel {
-    padding-top: 10px;
-    margin: 70px auto;
+figure {
+  margin: 25px auto;
+}
+
+figcaption {
+  text-align: left;
+  padding-left: 25px;
+  font-size: 0.85rem;
+  color: var(--ifm-color-primary-darkest);
+  opacity: 70%;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+a {
+  color: var(--austrakka-secondary-variation-darker);
+}
+
+.governance-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.governance-figure img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.governance-figure img:hover {
+  transform: scale(1.05);
+}
+
+.governance-figure figcaption {
+  margin-top: 0.5rem;
 }
