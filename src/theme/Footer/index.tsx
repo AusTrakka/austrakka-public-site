@@ -26,7 +26,7 @@ export default function Footer(): ReactNode {
                   {group.items.map((item: FooterLinkItem) => (
                     <li key={item.label} className="footer__item">
                       <Link
-                        href={item.href}
+                        href={item.href ?? item.to}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="footer__link-item"
