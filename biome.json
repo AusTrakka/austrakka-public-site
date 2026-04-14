@@ -14,7 +14,8 @@
       "!jest.config.js",
       "!coverage",
       "!**/coverage",
-      "!public/sw.js"
+      "!public/sw.js",
+      "!src/theme/Footer"
     ]
   },
   "formatter": {
