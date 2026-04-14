@@ -61,7 +61,7 @@ const LABS: Partner[] = [
   },
   {
     name: 'Institute of Clinical Pathology and Medical Research (ICPMR)',
-    url: 'https://www.wsce.com.au/project/institute-of-clinical-pathology-medical-research/',
+    url: 'https://pathology.health.nsw.gov.au/services/pathology/microbiology/',
     logo: 'img/partner-logos/icpmr.webp',
   },
   {

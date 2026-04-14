@@ -65,7 +65,7 @@ figure {
 }
 
 figcaption {
-  text-align: left;
+  text-align: center;
   padding-left: 25px;
   font-size: 0.85rem;
   color: var(--ifm-color-primary-darkest);
@@ -91,12 +91,71 @@ a {
   border-radius: 8px;
   transition: transform 0.2s ease;
   cursor: pointer;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .governance-figure img:hover {
-  transform: scale(1.05);
+  transform: scale(1.012);
 }
 
 .governance-figure figcaption {
   margin-top: 0.5rem;
+  text-align: center;
+}
+
+.video-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid var(--austrakka-primary-grey);
+  border-radius: var(--ifm-card-border-radius);
+  overflow: hidden;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.two-col-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .two-col-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  margin: 2.5rem 0;
+}
+
+.prev-members ul {
+  columns: 2;
+  column-gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .prev-members ul {
+    columns: 1;
+  }
+}
+
+.two-col-grid ul,
+.prev-members ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+.two-col-grid li::before,
+.prev-members li::before {
+  content: "\2022";
+  margin-right: 0.4rem;
 }
