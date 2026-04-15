@@ -57,3 +57,20 @@
 .footer__link-item:hover {
   color: var(--austrakka-secondary);
 }
+
+/* mobile support */
+@media (max-width: 768px) {
+  .footer__three-col {
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .footer__col--left,
+  .footer__col--center,
+  .footer__col--right {
+    text-align: justify;
+    padding-inline: 0;
+  }
+}
