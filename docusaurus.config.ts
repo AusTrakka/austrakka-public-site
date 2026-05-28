@@ -132,7 +132,7 @@ const config: Config = {
           items: [
             {
               label: 'AusTrakka Documentation',
-              to: 'https://docs.austrakka.net/',
+              to: 'https://docs.trakka.org/',
             },
           ],
         },
