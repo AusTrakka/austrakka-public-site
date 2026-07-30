@@ -1,11 +1,76 @@
-.footer__link-item:hover {
-    color: var(--austrakka-secondary);
+.footer__three-col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  gap: 2rem;
+}
+
+.footer__col--left {
+  flex: 1;
+  text-align: left;
+  font-size: 0.775rem;
+}
+
+.footer__col--center {
+  flex: 1;
+  padding-left: 3rem;
+  font-size: 0.875rem;
+  padding-bottom: 30px;
+}
+
+.footer__col--right {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: -15rem; /* adjust this value to taste */
+}
+
+.footer__title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.footer__items {
+  padding: 0;
+  margin: 0;
+}
+
+.footer__col--right .footer__items {
+  padding: 0;
+  margin: 0;
 }
 
 .footer {
-    padding: 1rem 1rem;
-    background-image: url('../../static/img/branding/dna.webp');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
+  padding: 1rem 1rem;
+  background-image: url("../../static/img/branding/dna.webp");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer__link-item:hover {
+  color: var(--austrakka-secondary);
+}
+
+/* mobile support */
+@media (max-width: 768px) {
+  .footer__three-col {
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .footer__col--left,
+  .footer__col--center,
+  .footer__col--right {
+    text-align: justify;
+    padding-inline: 0;
+  }
 }
